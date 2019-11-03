@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Test.TC_01_Verify_Guest_Able_To_Place_An_Order">
+        <methods>
+          <include name="addorderintocart"/>
+        </methods>
+      </class> <!-- com.Test.TC_01_Verify_Guest_Able_To_Place_An_Order -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
